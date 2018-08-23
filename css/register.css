@@ -1,0 +1,60 @@
+/*
+* @Author: admin
+* @Date:   2018-06-27 15:55:52
+* @Last Modified by:   admin
+* @Last Modified time: 2018-07-03 14:37:32
+*/
+
+
+.wmg_content .wmg__codes{
+	position: relative;
+}
+
+.wmg_content .wmg__codes input{
+	width: 100px;
+	height: 40px;
+}
+
+.wmg_content .wmg__codes img{
+	width: 160px;
+	height: 38px;
+	margin-left: 30px;
+}
+
+.wmg_content .wmg__codes em{
+	width: 160px;
+	height: 40px;
+	display:inline-block; 
+	text-align: center;
+	color: #555;
+	position: absolute;
+	left: 150px;
+	top: 25px;
+	z-index: 2;
+}
+
+.wmg_content .wmg__codes em p{
+	width: 160px;
+	height: 40px;
+	line-height: 60px;
+	font-size: 30px;
+	letter-spacing:15px;
+}
+
+
+.wmg_content .row .span_right{
+	float: left;
+}
+
+.wmg_content .row .span_right P{
+	display: inline-block;
+}
+
+
+.wmg_content .span_right input{
+	height: 13px;
+	width: 13px;
+	position: relative;
+	top: 2px;
+}
+

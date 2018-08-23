@@ -1,0 +1,293 @@
+/*
+* @Author: admin
+* @Date:   2018-06-28 15:23:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-02 19:51:06
+*/
+body{
+
+	background-image: url('../img/smallprogram_bgimg.png');
+	background: #fff;
+}
+
+.wmg_smallprogram_header {
+	width: 100%;
+	height: 1200px;	
+	background: #ebebeb;
+}
+
+.wmg_smallprogram_top {
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(-136deg, rgb(9, 100, 124) 0%, rgb(19, 168, 111) 100%);
+}
+
+.wmg_smallprogram_top .wmg_header{
+	border-bottom: 1px solid #499095;
+}
+
+
+
+.wmg_smallprogram_top .top-bgimg{
+	height: 800px;
+	position: absolute;
+	left: 30%;
+	top: 65px;
+	opacity:0.4;
+}
+
+.wmg_smallprogram_header .wmg_smallprogram_top .sp_wechat{
+	height: 171px;
+	width:500px;
+	margin-top: 30px;	
+}
+
+.wmg_smallprogram_header .wmg_smallprogram_top .sp_tree{
+	width: 80px;	
+	height: 88px;
+}
+
+.wmg_smallprogram_header .container .wmg_sp_text{
+	color: #fff;
+}
+
+.wmg_smallprogram_header .container .wmg_sp_text h1{
+	margin: 50px 0 30px 0 ;
+}
+
+.wmg_smallprogram_header .container .wmg_sp_text p{
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.wmg_smallprogram_header .container .wmg_sp_text a{
+	height: 40px;
+	width: 200px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	background: #09bb07;
+	border-radius: 5px;
+	transition: all 2s;
+	margin:30px auto;
+}
+.wmg_smallprogram_header .container .wmg_sp_text a:hover{
+	background: rgba(42, 44, 225, 0.5);
+}
+
+.wmg_smallprogram_header .wmg_smallprogram_top .sp_cenimg{
+	width: 82%;
+	display: block;
+	margin: 0px auto;
+	border-radius: 10px;
+	box-shadow:1px 2px 30px #555;
+}
+
+.wmg_smallprogram_header .container .wmg_sp_text p.cenimg_p{
+	color: #555;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 992px){
+	.wmg_smallprogram_header {
+		width: 100%;
+		height: 900px;	
+	}
+	.wmg_smallprogram_top {
+		width: 100%;
+		height: 500px;
+		background-image: linear-gradient(-136deg, rgb(9, 100, 124) 0%, rgb(19, 168, 111) 100%);
+	}
+	.wmg_smallprogram_top .top-bgimg{
+		height: 500px;
+		position: absolute;
+		left: 40%;
+		top: 65px;
+		opacity:0.4;
+	}
+	.wmg_smallprogram_header .wmg_smallprogram_top .sp_wechat{
+		height: 120px;
+		width:400px;	
+	}
+
+}
+
+
+
+.wmg_spcontent {
+	padding-top: 50px;
+}
+
+.wmg_spcontent .container .row span{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 100px;
+	font-size: 35px;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+
+}
+
+.wmg_spcontent .container .row p{
+	margin: 10px 0 30px 0;
+}
+
+.wmg_spcontent .sp_cenimg{
+	width: 82%;
+	display: block;
+	margin: 100px auto 20px auto;
+	border-radius: 10px;
+	box-shadow:1px 2px 30px #555;
+}
+
+.wmg_spcontent p.cenimg_p{
+	color: #555;
+	font-size: 14px;
+}
+
+.wmg_spcontent .container .sp_botm{
+	width: 85%;
+	margin: 50px auto 0px auto;
+	display: block;
+	/* background: red; */
+}
+
+
+.wmg_spcontent .container .sp_botm h2{
+	width: 167px;
+	height: 50px;
+	display: block;
+	margin: 0 auto 50px auto;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+}
+
+.wmg_spcontent .container .sp_botm li{
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+
+
+.wmg_spcontent .container .sp_botm i{
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	font-style: normal;
+}
+
+.wmg_spcontent .container .sp_botm p{
+	color: #757575;
+	line-height: 30px;
+	margin:0 0 0 25px;
+}
+
+
+.wmg_spcontent .container .sp_botm p.last_p{
+	margin-top: 30px;
+}
+
+.wmg_spcontent .container .sp_botm a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: #09bb07;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: 25px;
+}
+
+
+
+@media screen and (max-width: 767px){
+	.wmg_smallprogram_header {
+		width: 100%;
+		height: 650px;	
+	}
+
+	.wmg_smallprogram_top {
+		width: 100%;
+		height: 450px;
+		background-image: linear-gradient(-136deg, rgb(9, 100, 124) 0%, rgb(19, 168, 111) 100%);
+	}
+	.wmg_smallprogram_top .top-bgimg{
+		height: 450px;
+		position: absolute;
+		left: 40%;
+		top: 65px;
+		opacity:0.4;
+		display: none;
+	}
+	.wmg_smallprogram_header .wmg_smallprogram_top .sp_wechat{
+		height: 103px;
+		width:280px;	
+		margin-top: 60px;
+	}
+
+	.wmg_smallprogram_header .wmg_smallprogram_top .sp_tree{
+		display: none;
+	}
+
+	.wmg_spcontent .container .row{
+		margin: 100px  auto 0px auto;
+	}
+
+	.wmg_spcontent .container .row div span{
+		height: 60px;
+		width: 60px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 60px;
+		font-size: 30px;
+		border: 1px solid #aaa;
+		border-radius: 50%;
+
+	}
+
+	.wmg_spcontent .container .sp_botm{
+		width: 100%;
+		margin: 50px auto 0px auto;
+		display: block;
+		/* background: red; */
+	}
+
+	.wmg_spcontent .container .sp_botm h2{
+		width: 143px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+
+	.wmg_spcontent .container .sp_botm h4{
+		/* color: #757575; */
+		font-size: 16px;
+		line-height: 30px;
+		/* margin:0 0 0 25px; */
+	}
+
+	.wmg_spcontent .container .sp_botm a{
+		width: 100%;
+		display: block;
+		background: #09bb07;
+		color: #fff;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 5px;
+		text-decoration: none;
+		margin: 0 auto;
+	}
+
+}
