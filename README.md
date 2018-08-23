@@ -1,1 +1,1 @@
-# https://yaopg.github.io/Coolsite/
+# Coolsite
